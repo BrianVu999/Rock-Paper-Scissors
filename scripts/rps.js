@@ -144,6 +144,6 @@ function init() {
     //FOOTER
     temp = document.createElement("footer")
     document.body.appendChild(temp);
-    temp2 = document.createTextNode("Copyright © 2017 Wendi Jollymore");
+    temp2 = document.createTextNode("Copyright © 2017 Wendi Jollymore, Modifier 2020 Bao Nam Vu");
     temp.appendChild(temp2);
 }
