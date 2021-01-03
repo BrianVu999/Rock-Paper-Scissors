@@ -3,7 +3,6 @@
 * Nam Vu
 */
 
-// DON'T TOUCH, Just Read  --------------
 // array of moves/ids
 var pics = ["rock", "paper", "scissors"];
 // load the page elements
@@ -139,11 +138,5 @@ function init() {
     temp.appendChild(temp2);
     temp2 = document.createElement("span");
     temp2.id = "comp-score";
-    temp.appendChild(temp2);
-
-    //FOOTER
-    temp = document.createElement("footer")
-    document.body.appendChild(temp);
-    temp2 = document.createTextNode("Copyright © 2017 Wendi Jollymore, Modifier 2020 Bao Nam Vu");
     temp.appendChild(temp2);
 }
